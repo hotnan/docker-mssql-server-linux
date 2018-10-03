@@ -34,6 +34,6 @@ delete all containers
 -----------------------------------
 docker rm $(docker ps -a -q) -f
 
-Get Azure Data Studio for macOS
+Get SQL Operation Studio for macOS
 -----------------------------------
 https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017
