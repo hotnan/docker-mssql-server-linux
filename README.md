@@ -9,9 +9,11 @@ please following to step below before running docker-compose
 delete volume
 -----------------------------------
 docker volume ls
+
 docker volume rm <name_of_volume>
 
 stop and delete docker images
 -----------------------------------
 docker-compose stop
+
 docker-compose rm
