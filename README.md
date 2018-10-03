@@ -2,7 +2,7 @@
 
 please following to step below before running docker-compose
 
-1. setup .env file for MSSQL Server Password
+1. setup .env file for MSSQL Server "SA" Password
 2. chmod a+x up.sh & ./up.sh 
 3. to reset docker volume and reset docker-compose images
 
