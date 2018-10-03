@@ -12,7 +12,7 @@ restore database backup file to container
 2. sudo docker cp [backup file} {container id}:/var/opt/mssql/backup
 3. use SSMS to restore database or cmd below
 
-   `sudo docker exec -it sql1 /opt/mssql-tools/bin/sqlcmd -S localhost \
+   `sudo docker exec -it {container id} /opt/mssql-tools/bin/sqlcmd -S localhost \
    -U SA -P '<YourNewStrong!Passw0rd>' \
    -Q 'RESTORE FILELISTONLY FROM DISK = "/var/opt/mssql/backup/wwi.bak"' \
    | tr -s ' ' | cut -d ' ' -f 1-2`
