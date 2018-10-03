@@ -1,4 +1,4 @@
-# this is a demo docker-compose file to create docker for microsoft sql server on linux platform
+# this is a demo docker-compose file to create docker for microsoft sql server on linux platform or OSX
 
 please following to step below before running docker-compose
 
