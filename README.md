@@ -1,4 +1,4 @@
-# this is a demo docker-compose file to create microsoft sql server container on linux platform or macOS
+# docker-compose file to create microsoft sql server container on linux platform or macOS
 
 please following to step below before running docker-compose
 
