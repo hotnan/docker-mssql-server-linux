@@ -18,7 +18,9 @@ docker-compose stop
 
 docker-compose rm
 
-docker rm $(docker ps -a -q) -f *delete all container
+delete all containers
+-----------------------------------
+docker rm $(docker ps -a -q) -f
 
 Get Azure Data Studio for macOS
 -----------------------------------
