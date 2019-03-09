@@ -18,6 +18,9 @@ restore database backup file to container
    | tr -s ' ' | cut -d ' ' -f 1-2`
  
 
+# .env
+password=xxxx  no quote required.
+
 delete volume
 -----------------------------------
 docker volume ls
