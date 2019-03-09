@@ -19,6 +19,8 @@ restore database backup file to container
  
 
 .env
+-----------------------------------
+
 password=xxxx      // no quote required.
 
 
